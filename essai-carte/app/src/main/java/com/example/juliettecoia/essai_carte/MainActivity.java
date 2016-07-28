@@ -21,13 +21,9 @@ public class MainActivity extends FragmentActivity{
     public void changeText (View view){
         String button_text;
         button_text = ((Button) view).getText().toString();
-        if(button_text.equals("Submit"))
-        {
+        if(button_text.equals("Submit")) {
             Intent intent = new Intent(this, MenuConfirmActivity.class);
             startActivity(intent);
         }
-
-        //String message = "Done";
-        //textview.setText(message);
     }
 }
