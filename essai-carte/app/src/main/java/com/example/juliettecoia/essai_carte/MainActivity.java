@@ -17,7 +17,6 @@ public class MainActivity extends FragmentActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
     public void changeText (View view){
         String button_text;
         button_text = ((Button) view).getText().toString();
@@ -26,4 +25,5 @@ public class MainActivity extends FragmentActivity{
             startActivity(intent);
         }
     }
+
 }
