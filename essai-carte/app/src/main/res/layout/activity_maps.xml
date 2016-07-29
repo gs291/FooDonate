@@ -4,7 +4,11 @@
     android:id="@+id/map"
     android:name="com.google.android.gms.maps.SupportMapFragment"
     android:layout_width="match_parent"
+<<<<<<< HEAD
     android:layout_height="match_parent"
+=======
+    android:layout_height="400dp"
+>>>>>>> 18a053edac238b3bd02af9c467488d7749108cfe
     android:layout_gravity="center_horizontal"
     tools:context="com.example.juliettecoia.essai_carte.MapsActivity"
     tools:layout="@layout/activity_maps">
@@ -13,6 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="next"
+<<<<<<< HEAD
         android:id="@+id/button"
         android:layout_marginTop="500dp"
         android:layout_below="@+id/editText4"
@@ -31,4 +36,11 @@
 
 
 
+=======
+        android:id="@+id/btnLogin"
+        android:layout_marginTop="71dp"
+        android:layout_below="@+id/edtAddress"
+        android:layout_alignParentStart="true"
+        android:onClick="move"/>
+>>>>>>> 18a053edac238b3bd02af9c467488d7749108cfe
     </fragment>

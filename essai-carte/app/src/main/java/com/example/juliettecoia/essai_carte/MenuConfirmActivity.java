@@ -20,7 +20,11 @@ public class MenuConfirmActivity extends FragmentActivity{
     public void goToA3 (View view){
         String button_text;
         button_text = ((Button) view).getText().toString();
+<<<<<<< HEAD
         if(button_text.equals("donate"))
+=======
+        if(button_text.equals("Donate"))
+>>>>>>> 18a053edac238b3bd02af9c467488d7749108cfe
         {
             Intent intent = new Intent(this, DonateActivity.class);
             startActivity(intent);

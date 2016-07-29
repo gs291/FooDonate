@@ -2,7 +2,11 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
+<<<<<<< HEAD
     buildToolsVersion "24.0.1"
+=======
+    buildToolsVersion "23.0.3"
+>>>>>>> 18a053edac238b3bd02af9c467488d7749108cfe
 
     defaultConfig {
         applicationId "com.example.juliettecoia.essai_carte"

@@ -8,7 +8,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
+<<<<<<< HEAD
         android:text="Menu"
+=======
+        android:text="Thank you for signing up! "
+>>>>>>> 18a053edac238b3bd02af9c467488d7749108cfe
         android:id="@+id/textView2"
         android:layout_gravity="center_horizontal"
         android:padding="20dp" />
@@ -19,7 +23,11 @@
         android:text="donate"
         android:id="@+id/button2"
         android:onClick="goToA3"
+<<<<<<< HEAD
         android:layout_below="@+id/editText4"
+=======
+        android:layout_below="@+id/edtAddress"
+>>>>>>> 18a053edac238b3bd02af9c467488d7749108cfe
         android:layout_alignParentStart="true"
         android:layout_gravity="center_horizontal"
         android:layout_margin="10dp" />

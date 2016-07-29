@@ -5,6 +5,7 @@
     android:paddingTop="20dp">
 
     <TextView
+<<<<<<< HEAD
         android:layout_width="89dp"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -13,6 +14,14 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:layout_gravity="center_horizontal" />
+=======
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/textView"
+        android:layout_below="@+id/btnLogin"
+        android:layout_centerHorizontal="true" />
+>>>>>>> 18a053edac238b3bd02af9c467488d7749108cfe
 
     <EditText
         android:layout_width="wrap_content"
@@ -20,10 +29,16 @@
         android:hint="Email Address"
         android:inputType="textEmailAddress"
         android:ems="10"
+<<<<<<< HEAD
         android:id="@+id/editText"
         android:layout_below="@+id/textView2"
         android:layout_alignParentStart="true"
         android:layout_marginLeft="10dp" />
+=======
+        android:id="@+id/editEmail"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true" />
+>>>>>>> 18a053edac238b3bd02af9c467488d7749108cfe
 
     <EditText
         android:layout_width="wrap_content"
@@ -31,15 +46,24 @@
         android:hint="Password"
         android:inputType="textPassword"
         android:ems="10"
+<<<<<<< HEAD
         android:id="@+id/editText2"
         android:layout_below="@+id/editText"
         android:layout_alignParentStart="true"
 
         android:layout_marginLeft="10dp" />
+=======
+        android:id="@+id/editPass"
+        android:layout_below="@+id/editEmail"
+        android:layout_alignParentStart="true"
+
+        />
+>>>>>>> 18a053edac238b3bd02af9c467488d7749108cfe
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:text="enter"
         android:id="@+id/button"
         android:onClick="ShowGreetings"
@@ -47,11 +71,29 @@
         android:layout_alignParentStart="true"
         android:layout_marginLeft="10dp" />
 
+=======
+        android:text="Enter"
+        android:id="@+id/btnLogin"
+        android:onClick="ShowGreetings"
+        android:layout_below="@+id/editPass"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Login"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+>>>>>>> 18a053edac238b3bd02af9c467488d7749108cfe
 
     <ViewAnimator
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/viewAnimator"
+<<<<<<< HEAD
         android:layout_below="@+id/editText"
         android:layout_toEndOf="@+id/button" />
 
@@ -63,5 +105,23 @@
         android:layout_below="@+id/imageView2"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp" />
+=======
+        android:layout_below="@+id/editEmail"
+        android:layout_toEndOf="@+id/btnLogin" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:background="@drawable/donation2"
+        android:layout_below="@+id/imageView2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_below="@+id/textView"
+        android:layout_toEndOf="@+id/imageView" />
+>>>>>>> 18a053edac238b3bd02af9c467488d7749108cfe
 
 </LinearLayout>
