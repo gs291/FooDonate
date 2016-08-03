@@ -11,8 +11,8 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:icon="@drawable/samplelogo"
+        android:label="FooDonate"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
@@ -43,6 +43,8 @@
         <activity android:name=".MenuConfirmActivity"/>
         <activity android:name=".DonateActivity"/>
         <activity android:name="LoginActivity"/>
+        <activity android:name=".RequestActivity"/>
+        <activity android:name=".MissionActivity"/>
     </application>
 
 </manifest>

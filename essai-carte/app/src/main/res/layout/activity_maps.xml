@@ -1,11 +1,47 @@
-<fragment xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:map="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:layout_gravity="left|center_vertical"
+            android:text=" Location: "
+            android:textSize="20sp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText1"
+            android:layout_gravity="center|center_vertical"
+            android:ems="10">
+
+            <requestFocus/>
+
+            </EditText>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button1"
+            android:layout_gravity="right|center_vertical"
+            android:text="go"
+            android:onClick="geoLocate"/>
+        </LinearLayout>
+
+<fragment
     android:id="@+id/map"
     android:name="com.google.android.gms.maps.SupportMapFragment"
     android:layout_width="match_parent"
-    android:layout_height="400dp"
-    android:layout_gravity="center_horizontal"
+    android:layout_height="fill_parent"
     tools:context="com.example.juliettecoia.essai_carte.MapsActivity"
     tools:layout="@layout/activity_maps">
 
@@ -13,9 +49,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="next"
-        android:id="@+id/btnLogin"
-        android:layout_marginTop="71dp"
-        android:layout_below="@+id/edtAddress"
+        android:id="@+id/button"
+        android:layout_marginTop="500dp"
+        android:layout_below="@+id/editText4"
         android:layout_alignParentStart="true"
         android:onClick="move"/>
     </fragment>
+
+    </LinearLayout>
