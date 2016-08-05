@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="420dpi"
+    format="7"
+    timestamp="90826096097937"
+    token="-8761822995170134749" >
+
+    <task
+        name="javac"
+        duration="1086" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="861" />
+    <task
+        name="verifier"
+        duration="632" />
+
+    <artifact
+        location="C:\Users\Legol\AndroidStudioProjects\uh\essai-carte\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="90826096097937" >
+        <artifact
+            location="C:\Users\Legol\AndroidStudioProjects\uh\essai-carte\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
