@@ -1,4 +1,4 @@
-package com.example.juliettecoia.essai_carte;
+package com.example.juliettecoia.foodonate;
 
 import android.app.Activity;
 import android.os.Bundle;

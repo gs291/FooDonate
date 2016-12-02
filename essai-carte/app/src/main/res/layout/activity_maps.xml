@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="400dp"
     android:layout_gravity="center_horizontal"
-    tools:context="com.example.juliettecoia.essai_carte.MapsActivity"
+    tools:context="com.example.juliettecoia.foodonate.MapsActivity"
     tools:layout="@layout/activity_maps">
 
     <Button

@@ -1,4 +1,4 @@
-package com.example.juliettecoia.essai_carte;
+package com.example.juliettecoia.foodonate;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;

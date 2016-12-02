@@ -7,7 +7,7 @@
     android:paddingLeft="10dp"
     android:paddingRight="10dp"
     android:paddingTop="10dp"
-    tools:context="com.example.juliettecoia.essai_carte.MainActivity">
+    tools:context="com.example.juliettecoia.foodonate.MainActivity">
 
     <EditText
         android:layout_width="wrap_content"
